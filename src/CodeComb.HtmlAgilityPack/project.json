@@ -1,0 +1,38 @@
+{
+  "title": "CodeComb.HtmlAgilityPack",
+  "version": "1.0.0-*",
+  "description": "CodeComb HtmlAgilityPack",
+  "authors": [ "AmamiyaYuuko" ],
+  "tags": [ "HtmlAgilityPack" ],
+  "projectUrl": "https://github.com/CodeComb/HtmlAgilityPack",
+  "iconUrl": "http://www.1234.sh/images/logo.png",
+  "licenseUrl": "",
+  "copyright": "Harbin Code Comb Technology Co.,Ltd",
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Xml": ""
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Xml.XPath.XDocument": "4.0.1-*",
+        "System.Xml.XmlDocument": "4.0.1-*",
+        "System.Xml.XDocument": "4.0.11-*",
+        "System.Xml.ReaderWriter": "4.0.11-*",
+        "System.Xml.XPath.XmlDocument": "4.0.1-*",
+        "System.Xml.XPath": "4.0.1-*",
+        "System.Xml.XmlSerializer": "4.0.11-*",
+        "Microsoft.CSharp": "4.0.1-*",
+        "System.Collections": "4.0.11-*",
+        "System.Linq": "4.0.1-*",
+        "System.Runtime": "4.0.21-*",
+        "System.Threading": "4.0.11-*"
+      }
+    }
+  }
+}
