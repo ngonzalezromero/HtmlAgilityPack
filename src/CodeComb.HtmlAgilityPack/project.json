@@ -18,11 +18,6 @@
         "System.Xml": ""
       }
     },
-    "net45": {
-      "frameworkAssemblies": {
-        "System.Xml": ""
-      }
-    },
     "dotnet5.4": {
       "dependencies": {
         "System.Xml.XPath.XDocument": "4.0.1-*",
